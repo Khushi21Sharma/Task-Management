@@ -1,24 +1,32 @@
 import React, { useEffect } from 'react';
-import TaskForm from './TaskForm';
-import { useTaskContext } from '../../context/TaskContext';
-import Pagination from './Pagination';
-import TaskControls from './TaskControls';
-import RenderTasks from './RenderTasks';
-import { toast } from 'react-toastify';
-import './main.css';
+import TaskForm from './TaskForm'; // Import the TaskForm component
+import { useTaskContext } from '../../context/TaskContext'; // Import the custom hook for accessing TaskContext
+import Pagination from './Pagination'; // Import the Pagination component
+import TaskControls from './TaskControls'; // Import the TaskControls component
+import RenderTasks from './RenderTasks'; // Import the RenderTasks component
+import { toast } from 'react-toastify'; // Import toast notifications
+import './main.css'; // Import main CSS file
 
+// TaskList component responsible for managing tasks and rendering task-related components
 const TaskList = () => {
+  // Destructure necessary values from TaskContext
   const {
-    tasks,
-    setTasks,
-    sortOrder,
-    setSortOrder,
-    filterStatus,
-    setFilterStatus,
-    currentPage,
-    setCurrentPage,
-    tasksPerPage,
+    tasks, // Array of tasks
+    setTasks, // Function to set tasks
+    sortOrder, // Current sorting order
+    setSortOrder, // Function to set sorting order
+    filterStatus, // Current status filter
+    setFilterStatus, // Function to set status filter
+    currentPage, // Current page number for pagination
+    setCurrentPage, // Function to set current page number
+    tasksPerPage, // Number of tasks to display per page
   } = useTaskContext();
+
+  // This part of the code seems to be incomplete, let me know if you need assistance completing it.
+};
+
+// Export the TaskList component as the default export
+export default TaskList;
 
   useEffect(() => {
     const storedTasks = localStorage.getItem('tasks');
