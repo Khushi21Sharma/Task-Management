@@ -8,22 +8,29 @@ Detailed View: A list of all tasks with detailed information after added.
 
 ![tasks](https://res.cloudinary.com/dzxbbqq4l/image/upload/v1710179960/tms-app_bjipoa.png)
 
-## Technical:
+# Technical Stack:
 
-- React.js + Context + CSS.
+React.js: Utilized for building the user interface and managing component-based architecture.
+Context API: Used for state management, providing a centralized store for task-related data and functions.
+CSS: Styled components to create visually appealing and responsive UI.
+Local Storage: Leveraged for caching the list of tasks to maintain data persistence across sessions.
 
-- ## You Will See:
+# Key Features:
 
-- list of tasks (2 tasks per row) with task description and status.
-- [colored according to the status] (Not Started - In Progress- Finished).
-- CRUD Operations (Create - Read - Update - Delete).
-- Component to render each task src/Task.jsx
+Task List View: Displays tasks with detailed information, including description and status, with two tasks per row.
+CRUD Operations: Supports Create, Read, Update, and Delete operations for tasks, enabling users to manage their tasks efficiently.
+Color-Coded Status: Tasks are visually represented with colors corresponding to their status (Not Started, In Progress, Finished).
+Sorting and Filtration: Provides options to sort tasks by status and filter tasks based on status, enhancing user experience and task management capabilities.
+Pagination: Implements pagination for the list of tasks, allowing users to navigate through multiple pages of tasks conveniently.
+Dummy Login Page: Offers a simple login page with password validation (password must be "password") for user authentication.
 
-- ## Bonus Added:
+# Why React.js + Context API:
 
-- Sorting By Status, Filtration By Status, Pagination to the list of tasks.
-- Dummy Login Page password must be "password".
-- Using Caching to cache the list of tasks (Localstorage).
+Component-Based Architecture: React.js facilitates building reusable and modular UI components, promoting code reusability and maintainability.
+Context API for State Management: Context API simplifies state management in React applications, providing a centralized store for sharing data and functions across components without the need for prop drilling.
+Simplicity and Flexibility: React.js offers a simple and intuitive syntax, making it easy to learn and use. Context API provides a flexible and scalable solution for managing application state, suitable for small to medium-sized projects like this task management app.
+Performance Optimization: React's virtual DOM and efficient rendering mechanisms optimize app performance, ensuring smooth user interactions and responsiveness.
+Community Support and Ecosystem: React.js has a vibrant community and a rich ecosystem of libraries and tools, offering extensive documentation, tutorials, and support resources for developers.
 
 ## Project Setup
 
