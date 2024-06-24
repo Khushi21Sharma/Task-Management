@@ -11,8 +11,11 @@ Detailed View: A list of all tasks with detailed information after added.
 # Technical Stack:
 
 React.js: Utilized for building the user interface and managing component-based architecture.
+
 Context API: Used for state management, providing a centralized store for task-related data and functions.
+
 CSS: Styled components to create visually appealing and responsive UI.
+
 Local Storage: Leveraged for caching the list of tasks to maintain data persistence across sessions.
 
 # Key Features:
@@ -33,7 +36,7 @@ Local Storage: Leveraged for caching the list of tasks to maintain data persiste
 
 1. Component-Based Architecture: React.js facilitates building reusable and modular UI components, promoting code reusability and maintainability.
 
-2.Context API for State Management: Context API simplifies state management in React applications, providing a centralized store for sharing data and functions across components without the need for prop drilling.
+2. Context API for State Management: Context API simplifies state management in React applications, providing a centralized store for sharing data and functions across components without the need for prop drilling.
 
 3. Simplicity and Flexibility: React.js offers a simple and intuitive syntax, making it easy to learn and use. Context API provides a flexible and scalable solution for managing application state, suitable for small to medium-sized projects like this task management app.
 
